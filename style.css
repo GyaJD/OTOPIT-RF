@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    list-style: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.header-menu li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.header-menu li{
+    padding: 0 10px;
+}
+
+.header-menu li a:hover{
+    background-color: #ffbb42;
+    color: #ffffff;
+}
+
+main .container{
+    justify-content: center;
+}
+
+.request-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-block h2, .request-block p{
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+.request-block h2{
+    text-transform: uppercase;
+}
+
+.request-block p{
+    font-weight: 400;
+}
+
+main{
+    background-color: #709dca;
+}
+
+/* #709dca
+112, 157, 202 */
+
+.quote-form{
+    padding: 20px 10px;
+}
+
+.quote-form input{
+    padding: 10px;
+}
+
+.quote-form input[type="button"]{
+    background-color: #ffbb42;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    text-align: center;
+    font-size: large
+}
